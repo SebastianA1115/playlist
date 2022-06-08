@@ -1,12 +1,21 @@
 h1 {
   text-align: center;
+  color:white;
+}
+p {
+  color:white;
+  
+}
+body {
+  background-color:black;
+  
 }
 
 .display {
   display: flex;
   justify-content: center;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
 }
 
 .column {
@@ -19,6 +28,7 @@ h1 {
   height: 100px;
   width: auto;
   margin: 20px;
+  border: 3px solid white;
 }
 
 .songs p {
@@ -53,14 +63,21 @@ h1 {
   width: 75%;
   margin: 0 auto 20px auto;
   font-size: 18px;
+  
 }
 
 input {
   padding: 5px 10px;
   font-size: 14px;
+  background-color:black;
+  color:white;
+  border: 1px solid white;
 }
 
 button {
   font-size: 14px;
   padding: 5px 10px;
+  background-color:black;
+  color:white;
+  border: 1px solid white;
 }
